@@ -81,3 +81,7 @@ git add .
 git commit -m "Guardando cambios antes de publicar la característica"
 git flow feature publish autenticacion-google
 clear
+git add .
+git commit -m "Implementa la autenticación con Google"
+git flow feature publish autenticacion-google
+git status
