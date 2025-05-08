@@ -66,3 +66,11 @@ clear
 pwd
 git config ––global user.email"anthonyramosmontoya@gmail.com”  
 git init
+git branch
+git flow feature start Tony
+git checkout Tony
+git checkout develop 
+git pull origin develop
+git push -u origin develop
+git flow feature start autenticacion-google 
+git branch
