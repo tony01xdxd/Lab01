@@ -1,0 +1,74 @@
+2025-05-07 23:17:02.817 [info] [main] Log level: Info
+2025-05-07 23:17:02.817 [info] [main] Validating found git in: "git"
+2025-05-07 23:17:02.817 [info] [main] Using git "2.43.0" from "git"
+2025-05-07 23:17:02.817 [info] [Model][doInitialScan] Initial repository scan started
+2025-05-07 23:17:02.817 [info] > git rev-parse --show-toplevel [14ms]
+2025-05-07 23:17:02.817 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-07 23:17:02.817 [info] > git rev-parse --show-toplevel [101ms]
+2025-05-07 23:17:02.817 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-07 23:17:02.817 [info] > git rev-parse --show-toplevel [409ms]
+2025-05-07 23:17:02.817 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-07 23:17:02.861 [info] > git rev-parse --show-toplevel [38ms]
+2025-05-07 23:17:02.861 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-07 23:17:06.892 [info] > git rev-parse --show-toplevel [4020ms]
+2025-05-07 23:17:06.892 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-07 23:17:07.462 [info] > git rev-parse --show-toplevel [409ms]
+2025-05-07 23:17:07.465 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-07 23:17:07.764 [info] > git rev-parse --show-toplevel [28ms]
+2025-05-07 23:17:07.767 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-07 23:17:07.913 [info] > git rev-parse --show-toplevel [95ms]
+2025-05-07 23:17:07.913 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-07 23:17:08.130 [info] > git rev-parse --show-toplevel [49ms]
+2025-05-07 23:17:08.130 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-07 23:17:08.131 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-05-07 23:26:45.381 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-07 23:26:45.425 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2025-05-07 23:26:45.440 [info] [Model][openRepository] Opened repository: /home/anthonyramosmontoya
+2025-05-07 23:26:45.462 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-07 23:26:45.464 [info] > git config --get commit.template [13ms]
+2025-05-07 23:26:45.466 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-05-07 23:26:45.467 [warning] [Git][getBranch] No such branch: master
+2025-05-07 23:26:45.489 [info] > git status -z -uall [14ms]
+2025-05-07 23:26:45.491 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-05-07 23:26:45.522 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [13ms]
+2025-05-07 23:26:45.522 [warning] [Git][getBranch] No such branch: master
+2025-05-07 23:26:45.523 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-05-07 23:26:45.526 [info] > git config --get commit.template [4ms]
+2025-05-07 23:26:45.536 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-07 23:26:45.569 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [34ms]
+2025-05-07 23:26:45.569 [warning] [Git][getBranch] No such branch: master
+2025-05-07 23:26:45.586 [info] > git status -z -uall [10ms]
+2025-05-07 23:26:45.590 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-05-07 23:26:46.120 [info] > git check-ignore -v -z --stdin [5ms]
+2025-05-07 23:26:46.189 [info] > git show --textconv :DemoFlow/index.html [10ms]
+2025-05-07 23:26:46.191 [info] > git ls-files --stage -- /home/anthonyramosmontoya/DemoFlow/index.html [4ms]
+2025-05-07 23:27:00.701 [info] > git ls-files --stage -- /home/anthonyramosmontoya/DemoFlow/index.html [2ms]
+2025-05-07 23:27:00.711 [info] > git cat-file -s d01f779ffe857c350a556704ae244cec10844ce0 [3ms]
+2025-05-07 23:27:00.860 [info] > git show --textconv :DemoFlow/index.html [3ms]
+2025-05-07 23:27:51.367 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-07 23:27:51.375 [info] > git config --get commit.template [9ms]
+2025-05-07 23:27:51.376 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-07 23:27:51.377 [warning] [Git][getBranch] No such branch: master
+2025-05-07 23:27:51.394 [info] > git status -z -uall [11ms]
+2025-05-07 23:27:51.396 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-05-07 23:28:17.787 [info] > git ls-files --stage -- /home/anthonyramosmontoya/DemoFlow/index.html [2ms]
+2025-05-07 23:28:17.796 [info] > git cat-file -s d01f779ffe857c350a556704ae244cec10844ce0 [2ms]
+2025-05-07 23:28:17.945 [info] > git show --textconv :DemoFlow/index.html [3ms]
+2025-05-07 23:29:04.108 [info] > git ls-files --stage -- /home/anthonyramosmontoya/DemoFlow/index.html [2ms]
+2025-05-07 23:29:04.117 [info] > git cat-file -s d01f779ffe857c350a556704ae244cec10844ce0 [2ms]
+2025-05-07 23:29:04.267 [info] > git show --textconv :DemoFlow/index.html [2ms]
+2025-05-07 23:29:49.673 [info] > git ls-files --stage -- /home/anthonyramosmontoya/DemoFlow/index.html [2ms]
+2025-05-07 23:29:49.682 [info] > git cat-file -s d01f779ffe857c350a556704ae244cec10844ce0 [2ms]
+2025-05-07 23:29:49.831 [info] > git show --textconv :DemoFlow/index.html [3ms]
+2025-05-07 23:31:19.626 [info] > git ls-files --stage -- /home/anthonyramosmontoya/DemoFlow/index.html [2ms]
+2025-05-07 23:31:19.635 [info] > git cat-file -s d01f779ffe857c350a556704ae244cec10844ce0 [3ms]
+2025-05-07 23:31:19.784 [info] > git show --textconv :DemoFlow/index.html [3ms]
