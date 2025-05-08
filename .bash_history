@@ -77,3 +77,7 @@ git branch
 git add .
 git commit -m "Implemeta la autenticacion con Google"
 git flow feature publish autenticacion-google
+git add .
+git commit -m "Guardando cambios antes de publicar la característica"
+git flow feature publish autenticacion-google
+clear
