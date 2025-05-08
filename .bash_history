@@ -74,3 +74,6 @@ git pull origin develop
 git push -u origin develop
 git flow feature start autenticacion-google 
 git branch
+git add .
+git commit -m "Implemeta la autenticacion con Google"
+git flow feature publish autenticacion-google
