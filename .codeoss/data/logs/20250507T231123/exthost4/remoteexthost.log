@@ -16,3 +16,10 @@
 2025-05-07 23:32:39.616 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
 2025-05-07 23:32:39.616 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
 2025-05-07 23:32:39.616 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-08 00:33:01.199 [error] Error: Tool with identifier docs already registered.
+    at a.register (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/src/ai-companion/gemini_tool_service.ts:24:13)
+    at forEach (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/src/ai-companion/ai_language_client.ts:317:58)
+    at Array.forEach (<anonymous>)
+    at t.AILanguageClient.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/src/ai-companion/ai_language_client.ts:317:25)
+    at Generator.next (<anonymous>)
+    at s (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/src/ai-companion/ai_document_context.ts:90:3)

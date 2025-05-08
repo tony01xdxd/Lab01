@@ -66,3 +66,22 @@ clear
 pwd
 git config ––global user.email"anthonyramosmontoya@gmail.com”  
 git init
+git branch
+git flow feature start Tony
+git checkout Tony
+git checkout develop 
+git pull origin develop
+git push -u origin develop
+git flow feature start autenticacion-google 
+git branch
+git add .
+git commit -m "Implemeta la autenticacion con Google"
+git flow feature publish autenticacion-google
+git add .
+git commit -m "Guardando cambios antes de publicar la característica"
+git flow feature publish autenticacion-google
+clear
+git add .
+git commit -m "Implementa la autenticación con Google"
+git flow feature publish autenticacion-google
+git status
