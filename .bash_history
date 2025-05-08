@@ -85,3 +85,6 @@ git add .
 git commit -m "Implementa la autenticación con Google"
 git flow feature publish autenticacion-google
 git status
+clear
+git branch
+git checkout develop
